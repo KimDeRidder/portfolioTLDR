@@ -6,24 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $title ?? 'TLDR'; ?></title>
     <link rel="stylesheet" href="/style/css/main.css">
+    <link rel="icon" type="image/png" href="/content/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/content/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/content/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/content/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/content/favicon/site.webmanifest" />
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="headerLogo">
-                <img src="/content/img/Logo_KdR.svg" alt="Logo TLDR">
-            </div>
-            <nav class="headerNav">
-                <ul>
-                    <li><a href="#about">Über mich</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#works">Meine Arbeit</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-    </header>
+    <?php include './structure/header.php';?>
     <main>
 <section>
     <div class="hero">
@@ -31,8 +22,6 @@
     </div>
 </section>
 </main>
-    <footer>
-        <p>this is the footer</p>
-    </footer>
+<?php include './structure/footer.php';?>
 </body>
 </html>
