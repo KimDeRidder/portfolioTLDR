@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $title ?? 'TLDR'; ?></title>
-    <link rel="stylesheet" href="/style/css/main.css">
+    <link rel="stylesheet" href="/style/dist/css/main.css">
     <link rel="icon" type="image/png" href="/content/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/content/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/content/favicon/favicon.ico" />
@@ -18,7 +18,15 @@
     <main>
 <section>
     <div class="hero">
+        <div class="heroLeft col-xs-12 xol-md-4">
+            <h3>3D Designer, Media Specialist & Frontend Developer</h3>
+            <h1>Kim Tilo de Ridder</h1>
+            <p>Creating immersive 3D assets, stunning visuals, and interactive web experiences for games, digital platforms, and beyond.</p>
+            <button class="btn btn--primary">Bring Ideas to Life</button>
+        </div>
+        <div class="heroRight col-xs-12 col-md-8">
 
+        </div>
     </div>
 </section>
 </main>

@@ -1,0 +1,39 @@
+//colors
+$primary-color: #7A56FE;
+$secondary: #3350c3;
+$black: #181818;
+$white: #EDEDED;
+$boxGradient: linear-gradient(90deg, rgba(122,86,254,1) 16%, rgba(69,41,171,1) 62%, rgba(51,80,195,1) 100%);
+$backgroundGradient: radial-gradient(circle, rgba(33,33,37,1) 66%, rgba(122,86,254,1) 100%);
+
+//font
+
+$main-font: 'Roboto', sans-serif;
+$headline-font: 'League Spartan', sans-serif;
+
+body {
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: $headline-font;
+    font-size: 48px;              
+    font-weight: 900;
+}
+
+//buttons
+
+    //button-primary
+    .btn {
+        font-family: $main-font;
+        font-size: 16px;
+        font-weight: 500;
+
+        &--primary {
+            background: none;
+            border-radius: 50%;
+            border: 2px solid $white;
+        }
+    }
